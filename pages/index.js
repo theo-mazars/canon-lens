@@ -51,9 +51,9 @@ export default function Home() {
       setResult(null);
     } else if (year) {
       const years = [
-        year.charCodeAt(0) + 1895,
-        year.charCodeAt(0) + 1921,
-        year.charCodeAt(0) + 1947,
+        year.charCodeAt(0) + 1960 - 65,
+        year.charCodeAt(0) + 1986 - 65,
+        year.charCodeAt(0) + 2012 - 65,
       ].reduce((acc, cur) => {
         const mnt = mounts.find((m) => m.id === settings.mount);
 
