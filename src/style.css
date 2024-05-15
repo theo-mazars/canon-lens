@@ -37,6 +37,10 @@ body {
 	background-color: var(--background-color);
 }
 
+#app {
+	width: 100%;
+}
+
 .Header {
 	border-bottom: 1px solid var(--border-color);
 	padding: 0 40px;
@@ -48,7 +52,8 @@ body {
 }
 
 section {
-	width: 512px;
+	width: 100%;
+	max-width: 512px;
 	padding: 20px;
 	margin: auto;
 	display: flex;
