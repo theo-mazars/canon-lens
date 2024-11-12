@@ -12,8 +12,9 @@
 		"preact-render-to-string": "^6.4.2"
 	},
 	"devDependencies": {
+		"@babel/core": "^7.0.0-0",
 		"@preact/preset-vite": "^2.8.2",
-		"eslint": "^9.2.0",
+		"eslint": "^8.0.0",
 		"eslint-config-preact": "^1.4.0",
 		"typescript": "^5.4.5",
 		"vite": "^5.4.11"
